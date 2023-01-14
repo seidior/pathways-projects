@@ -1,0 +1,24 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "EditorConfig.EditorConfig",
+    "GitHub.remotehub",
+    "GitHub.vscode-pull-request-github",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode.vscode-js-profile-flame",
+    "ms-vscode-remote.remote-containers",
+    "ms-vscode.remote-explorer",
+    "ms-vscode.remote-repositories",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-ssh-edit",
+    "ms-vsliveshare.vsliveshare",
+    "oderwat.indent-rainbow",
+    "orta.vscode-jest",
+    "Prisma.prisma",
+    "quicktype.quicktype",
+    "rangav.vscode-thunder-client",
+    "tlahmann.alex-linter"
+  ]
+}

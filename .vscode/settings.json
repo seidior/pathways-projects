@@ -1,0 +1,36 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "indentRainbow.indicatorStyle": "light",
+  "jest.autoRun": "off",
+  "files.exclude": {
+    "**/node_modules": false,
+    "node_modules": true,
+    "*[!test]**/node_modules": true
+  },
+  "terminal.integrated.scrollback": 10000,
+  "todo-tree.filtering.excludeGlobs": [
+    "**/node_modules",
+    "**/dist",
+    "**/compiled"
+  ],
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "TODO-APP"
+  ],
+  "typescript.surveys.enabled": false
+}
