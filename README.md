@@ -1,18 +1,18 @@
-# Pathways Projects
+# Pathways Project
 
-These projects are part of the OpenTree Education Pathways program. To find out more about Pathways and the OpenTree Education community, visit:
+This project is part of the OpenTree Education Pathways program. To find out more about Pathways and the OpenTree Education community, visit:
 
 https://opentree.education
 
 ## Repository Structure
 
-You are currently viewing the `main` branch of this repository. Each of the projects will be contained in their own branches, such as `project-1`.
+You are currently viewing the `main` branch of this repository. The work for each module will be contained in branches for that module, such as `module-1`.
 
 Each Pathways candidate will fork the main repository, located at:
 
 https://github.com/OpenTree-Education/pathways-projects
 
-They will then extend their fork with their work on each of the projects.
+They will then extend their fork with their work on each of the modules.
 
 ## License
 
