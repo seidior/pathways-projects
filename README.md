@@ -1,4 +1,4 @@
-# Pathways Project 1: Sourcing Data
+# Pathways Module 1: Setting up your Git repository
 
 In your top-level README file, you should include the following:
 

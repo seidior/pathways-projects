@@ -4,18 +4,22 @@
     "allowSyntheticDefaultImports": true,
     "allowUnreachableCode": false,
     "baseUrl": ".",
+    "declaration": true,
+    "declarationMap": true,
     "emitBOM": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "lib": ["es6", "dom", "dom.iterable", "esnext"],
+    "lib": ["esnext", "dom"],
     "module": "esnext",
     "moduleResolution": "node",
     "newLine": "lf",
-    "noEmit": true,
+    "noEmit": false,
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
     "noImplicitThis": true,
     "noUnusedLocals": true,
     "resolveJsonModule": true,
@@ -25,8 +29,11 @@
     "strictNullChecks": true,
     "target": "es2020"
   },
-  "include": ["src"],
-  "ts-node": {
-    "esm": true
-  }
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/cli/tsconfig.ref.json"
+    }
+  ],
+  "exclude": ["**/node_modules/**", "**/*.spec.ts", "**/dist/**/*"]
 }
