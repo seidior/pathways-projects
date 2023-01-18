@@ -1,4 +1,4 @@
-# Pathways Module 1: Setting up your Git repository
+# Pathways Module 2: File and Console I/O
 
 This project is to create an interactive climate data tool for a given city. The
 first step is to create a command-line-based tool to read and parse the climate

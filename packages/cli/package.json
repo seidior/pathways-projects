@@ -36,5 +36,8 @@
   "bugs": {
     "url": "https://github.com/seidior/pathways-projects/issues"
   },
-  "homepage": "https://github.com/seidior/pathways-projects#readme"
+  "homepage": "https://github.com/seidior/pathways-projects#readme",
+  "devDependencies": {
+    "csv-parse": "5.3.3"
+  }
 }
