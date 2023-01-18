@@ -1,0 +1,40 @@
+{
+  "name": "pathways-climate-cli",
+  "version": "0.1.0",
+  "description": "Command-line interactive climate data tool created for the OpenTree Pathways program. Find out more at https://opentree.education",
+  "private": true,
+  "main": "src/climateTool.ts",
+  "engines": {
+    "node": "^18.13"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b",
+    "climateTool": "ts-node src/climateTool.ts",
+    "eslint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
+    "eslint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx}'",
+    "prettier": "prettier --check 'src/**/*.{js,jsx,ts,tsx,css}'",
+    "prettier:write": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css}'",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seidior/pathways-projects.git"
+  },
+  "keywords": [
+    "OpenTree",
+    "Pathways",
+    "climate"
+  ],
+  "author": {
+    "name": "Spencer W.",
+    "email": "4006420+seidior@users.noreply.github.com",
+    "url": "https://opentree.education"
+  },
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/seidior/pathways-projects/issues"
+  },
+  "homepage": "https://github.com/seidior/pathways-projects#readme"
+}
