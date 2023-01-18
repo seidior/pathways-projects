@@ -21,6 +21,7 @@
     "node_modules": true,
     "*[!test]**/node_modules": true
   },
+  "nxConsole.enableTelemetry": false,
   "terminal.integrated.scrollback": 10000,
   "todo-tree.filtering.excludeGlobs": [
     "**/node_modules",

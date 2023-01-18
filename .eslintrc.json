@@ -2,7 +2,7 @@
   "root": true,
   "parser": "@typescript-eslint/parser",
   "env": {
-    "browser": false,
+    "browser": true,
     "commonjs": false,
     "es6": true,
     "es2020": true,
@@ -26,6 +26,17 @@
     "plugin:jsx-a11y/recommended",
     "plugin:prettier/recommended"
   ],
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true, // always try to resolve types under `<root>@types` directory even it doesn't contain any source code, like `@types/unist`
+        "project": "packages/*/tsconfig.json"
+      }
+    }
+  },
   "rules": {
     "camelcase": [
       "error",
@@ -36,6 +47,7 @@
     ],
     "linebreak-style": "error",
     "no-console": "off",
-    "prefer-destructuring": "error"
+    "prefer-destructuring": "error",
+    "filenames/match-regex": "off"
   }
 }

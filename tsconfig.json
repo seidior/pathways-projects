@@ -11,8 +11,8 @@
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "lib": ["esnext", "dom"],
-    "module": "esnext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
     "moduleResolution": "node",
     "newLine": "lf",
     "noEmit": false,
@@ -27,7 +27,8 @@
     "sourceMap": true,
     "strict": true,
     "strictNullChecks": true,
-    "target": "es2020"
+    "target": "es2020",
+    "useDefineForClassFields": true
   },
   "files": [],
   "references": [

@@ -6,6 +6,7 @@
     "EditorConfig.EditorConfig",
     "GitHub.remotehub",
     "GitHub.vscode-pull-request-github",
+    "mechatroner.rainbow-csv",
     "ms-azuretools.vscode-docker",
     "ms-vscode.vscode-js-profile-flame",
     "ms-vscode-remote.remote-containers",
