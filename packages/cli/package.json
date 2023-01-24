@@ -1,0 +1,43 @@
+{
+  "name": "pathways-climate-cli",
+  "version": "0.1.0",
+  "description": "Command-line interactive climate data tool created for the OpenTree Pathways program. Find out more at https://opentree.education",
+  "private": true,
+  "main": "src/climateTool.ts",
+  "engines": {
+    "node": "^18.13"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b",
+    "climateTool": "ts-node src/climateTool.ts",
+    "eslint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
+    "eslint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx}'",
+    "prettier": "prettier --check 'src/**/*.{js,jsx,ts,tsx,css}'",
+    "prettier:write": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css}'",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<your github username>/pathways-projects.git"
+  },
+  "keywords": [
+    "OpenTree",
+    "Pathways",
+    "climate"
+  ],
+  "author": {
+    "name": "Replace this with your first and last name",
+    "email": "Replace this with your email address",
+    "url": "Replace this with a link to your personal website, online portfolio, or LinkedIn"
+  },
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/<your github username>/pathways-projects/issues"
+  },
+  "homepage": "https://github.com/<your github username>/pathways-projects#readme",
+  "devDependencies": {
+    "chalk": "5.2.0"
+  }
+}

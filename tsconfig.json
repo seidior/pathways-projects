@@ -3,7 +3,6 @@
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "allowUnreachableCode": false,
-    "baseUrl": ".",
     "declaration": true,
     "declarationMap": true,
     "emitBOM": true,
