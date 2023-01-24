@@ -49,6 +49,8 @@
     "linebreak-style": "error",
     "no-console": "off",
     "prefer-destructuring": "error",
-    "filenames/match-regex": "off"
+    "@typescript-eslint/no-explicit-any": "off",
+    "filenames/match-regex": "off",
+    "i18n-text/no-en": "off"
   }
 }
